@@ -1,4 +1,4 @@
-package com.costacarol.projectzenvia.jokenpo;
+package com.costacarol.dojopuzzles.jokenpo;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

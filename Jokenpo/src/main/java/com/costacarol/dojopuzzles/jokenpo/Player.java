@@ -1,4 +1,4 @@
-package com.costacarol.projectzenvia.jokenpo;
+package com.costacarol.dojopuzzles.jokenpo;
 
 public class Player {
 

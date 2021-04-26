@@ -15,21 +15,12 @@ public class Player {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Enum getMove() {
         return move;
     }
 
-    public void setMove(Enum move) {
-        this.move = move;
-    }
-
     public boolean validateValueOfName(String name){
-
-        if(name.equals("null") || name == null || name.isBlank()){
+        if(name.equals("null") || name.isBlank()){
             throw new IllegalArgumentException("Insert a valid name.");
         }
         return true;

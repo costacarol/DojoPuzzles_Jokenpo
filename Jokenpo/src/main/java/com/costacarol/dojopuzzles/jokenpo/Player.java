@@ -28,6 +28,7 @@ public class Player {
     }
 
     public boolean validateValueOfName(String name){
+
         if(name.equals("null") || name == null || name.isBlank()){
             throw new IllegalArgumentException("Insert a valid name.");
         }

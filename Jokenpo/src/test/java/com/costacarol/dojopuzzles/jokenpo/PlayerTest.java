@@ -7,11 +7,11 @@ class PlayerTest {
 
     @Test
     public void shouldReturnIllegalArgumentExceptionWithNullValue(){
-        Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player("null", MoveOptions.PAPER));
+        Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player("null", MoveJokenpoOptions.PAPER));
     }
 
     @Test
     public void shouldReturnIllegalArgumentExceptionWithBlankValue(){
-        Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player("", MoveOptions.PAPER));
+        Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player("", MoveJokenpoOptions.PAPER));
     }
 }

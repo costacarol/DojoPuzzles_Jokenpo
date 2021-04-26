@@ -1,6 +1,6 @@
 package com.costacarol.dojopuzzles.jokenpo;
 
-public enum MoveOptions {
+public enum MoveJokenpoOptions {
 
     ROCK,
     PAPER,

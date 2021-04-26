@@ -6,7 +6,12 @@ import org.junit.jupiter.api.Test;
 class PlayerTest {
 
     @Test
-    public void shouldReturnIllegalArgumentException(){
-       Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player(null, MoveOptions.PAPER));
+    public void shouldReturnIllegalArgumentExceptionWithNullValue(){
+        Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player("null", MoveOptions.PAPER));
+    }
+
+    @Test
+    public void shouldReturnIllegalArgumentExceptionWithBlankValue(){
+        Assertions.assertThrows(IllegalArgumentException.class, () ->  new Player("", MoveOptions.PAPER));
     }
 }

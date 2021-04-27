@@ -1,4 +1,4 @@
-package com.costacarol.dojopuzzles.jokenpo;
+package io.github.costacarol.jokenpo;
 
 public class Jokenpo implements GamesWithTwoPlayers {
 
